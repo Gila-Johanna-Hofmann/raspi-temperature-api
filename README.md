@@ -31,7 +31,7 @@ A successful GET-request is printed to the console with the information the JSON
 # Acknowledgments
 Wolfgang Graab provides the instructions on how to connect the sensor to the Pi and the code to convert the sensor-output to Celcius.
 
-[Wolfgang Graabs Website](https://webnist.de/temperatur-sensor-ds1820-am-raspberry-pi-mit-python/).
+[Wolfgang Graabs Website with a how-to for using and reading a temperature sensor](https://webnist.de/temperatur-sensor-ds1820-am-raspberry-pi-mit-python/).
 
 &
 
