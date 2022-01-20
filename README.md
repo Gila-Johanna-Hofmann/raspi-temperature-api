@@ -23,6 +23,9 @@ A successful GET-request is printed to the console with the information the JSON
 
 # Acknowledgments
 Wolfgang Graab provides the instructions on how to connect the sensor to the Pi and the code to convert the sensor-output to Celcius.
-[Wolfgang Graabs Website] (https://webnist.de/kontakt/).
+
+[Wolfgang Graabs Website](https://webnist.de/kontakt/).
+
 &
+
 @merlinschumacher helped me with the server and API-portion of the code.
