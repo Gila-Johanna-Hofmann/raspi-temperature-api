@@ -2,7 +2,9 @@
 A simple python program that reads data from a temperature sensor and makes it available via REST API
 
 # Description
-The program is part of a school assignment that emulates monitoring a server room for temperature. The assignment was to add a sensor to the Pi, read its output and make the data available. My study group used the DS1820 sensor to measure temperature via the Pi and put together a program that both reads the measurements from the sensor and publishes them via HTTPServer and REST API. We also added another Pi with a Node-Red module (that is not part of this project) that gets the measurements via the API and displays and stores them. This is all very simply done with no regards to security.
+The program is part of a school assignment that emulates monitoring a server room for temperature. The assignment was to add a sensor to the Pi, read its output and make the data available. My study group used the DS1820 sensor to measure temperature via the Pi and put together a program that both reads the measurements from the sensor and publishes them via HTTPServer and REST API. To use the avilable data, we also added another Pi with a Node-Red module which gets the measurements via the API and displays and stores them (that is not part of this repository/project). 
+
+This is all very simply done with no regards to security.
 
 The DS1820 reads the temperature and puts it into a file in hex code. The file can be accessed on the Pi an the hex is converted into a string, the temperature-portion is used and converted to Celcius - a decimal with two digits. It is then put into JSON format, together with the current datetime (that was converted into JSON serializable format) and a ficticious name of the server room. An HTTPServer is set up on the Pi and upon a GET-call, a simple API provides the JSON. 
 
