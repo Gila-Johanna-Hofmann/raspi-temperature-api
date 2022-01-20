@@ -28,4 +28,4 @@ Wolfgang Graab provides the instructions on how to connect the sensor to the Pi 
 
 &
 
-@merlinschumacher helped me with the server and API-portion of the code.
+[@merlinschumacher](https://github.com/merlinschumacher) helped me with the server and API-portion of the code.
