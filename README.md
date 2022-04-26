@@ -1,8 +1,13 @@
 # RaspberryPi Temperature Sensor API
 A simple python program that reads data from a temperature sensor and makes it available via REST API
 
+# Technologies
+Python3
+Temperature sensor
+Raspberry Pi
+
 # Description
-The program is part of a school assignment that emulates monitoring a server room for temperature. The assignment was to add a sensor to the Pi, read its output and make the data available. My study group used the DS1820 sensor to measure temperature via the Pi and put together a program that both reads the measurements from the sensor and publishes them via HTTPServer and REST API. To use the avilable data, we also added another Pi with a Node-RED module which gets the measurements via the API and displays and stores them (that is not part of this repository/project). 
+The program is part of a school assignment that simulates monitoring a server room for temperature. The assignment was to add a sensor to the Pi, read its output and make the data available. My study group used the DS1820 sensor to measure temperature via the Pi and put together a program that both reads the measurements from the sensor and publishes them via HTTPServer and REST API. To use the avilable data, we also added another Pi with a Node-RED module which gets the measurements via the API and displays and stores them (that is not part of this repository/project). 
 
 This is all very simply done with no regards to security.
 
