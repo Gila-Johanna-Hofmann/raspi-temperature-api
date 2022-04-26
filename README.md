@@ -14,7 +14,7 @@ Python3
 
 DS1820 temperature sensor (and any other stuff you need to connect it to the Pi)
 ## Installing
-Connect the sensor to your Pi --> a german how-to is added in the acknowledgements-section of the Readme.
+Connect the sensor to your Pi --> a tutorial in german is added in the acknowledgements-section of the Readme.
 
 Copy the python script to the Pi.
 
@@ -26,7 +26,7 @@ Run the program with Python3 --> the server should start.
 
 You should be able to GET the JSON with the temperature via the Pi-IP and port in a browser, with Postman, Node-RED or however you like.
 ## Help
-A successful GET-request is printed to the console with the information the JSON-body will provide.
+A successful GET-request is printed to the console with the information the response-body will provide.
 
 # Acknowledgments
 Wolfgang Graab provides the instructions on how to connect the sensor to the Pi and the code to convert the sensor-output to Celcius.
